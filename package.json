@@ -1,0 +1,25 @@
+{
+  "name": "ndprj",
+  "version": "1.0.0",
+  "description": "demoprj..",
+  "main": "ketanserver.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "nodemon ketanserver.js",
+    "swagger-autogen": "node api-docs/swagger.js"
+  },
+  "author": "ketan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13",
+    "swagger-autogen": "^2.11.2"
+  }
+}
